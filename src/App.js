@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -12,6 +13,15 @@ import Donate from './components/Donate';
 function App() {
   return (
     <div className="App">
+      <Home/>
+      <About/>
+      <Contact/>
+      <Endorsements/>
+      <Petition/>
+      <Platform/>
+      <Volunteer/>
+      <Events/>
+      <Donate/>
     </div>
   );
 }
