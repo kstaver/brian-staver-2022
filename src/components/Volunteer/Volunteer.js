@@ -1,4 +1,5 @@
 import React from 'react';
+import VolunteerStyle from './Volunteer.css';
 
 function Volunteer() {
   return (
