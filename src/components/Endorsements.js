@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Endorsements() {
   return (
@@ -6,4 +6,4 @@ function Endorsements() {
   )
 }
 
-export default Endorsements
+export default Endorsements;

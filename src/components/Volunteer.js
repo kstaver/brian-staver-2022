@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Volunteer() {
   return (
@@ -6,4 +6,4 @@ function Volunteer() {
   )
 }
 
-export default Volunteer
+export default Volunteer;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Events() {
   return (
@@ -6,4 +6,4 @@ function Events() {
   )
 }
 
-export default Events
+export default Events;

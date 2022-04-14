@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Platform() {
   return (
@@ -6,4 +6,4 @@ function Platform() {
   )
 }
 
-export default Platform
+export default Platform;
