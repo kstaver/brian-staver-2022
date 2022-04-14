@@ -11,6 +11,7 @@ import Events from './components/Events/Events';
 import Donate from './components/Donate/Donate';
 import {Routes, Route} from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Events" element={<Events/>}/>
         <Route path="/Donate" element={<Donate/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
