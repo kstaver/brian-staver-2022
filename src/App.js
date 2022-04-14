@@ -10,7 +10,7 @@ import Volunteer from './components/Volunteer/Volunteer';
 import Events from './components/Events/Events';
 import Donate from './components/Donate/Donate';
 import {Routes, Route} from 'react-router-dom';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
