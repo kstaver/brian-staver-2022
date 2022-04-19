@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import {MenuItems} from "./MenuItems";
+import { MenuItems } from "./MenuItems";
 
 function Navbar() {
   return (
