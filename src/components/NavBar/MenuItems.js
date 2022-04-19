@@ -1,4 +1,4 @@
-const MenuItems = [
+export const MenuItems = [
     {
         title:'Home',
         url: '#',
@@ -42,6 +42,6 @@ const MenuItems = [
     {
         title:'Donate',
         url: '#',
-        cName: 'nav-links',
+        cName: 'nav-links-mobile',
     },
 ]
