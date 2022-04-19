@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import {MenuItems} from "./MenuItems";
 
 function Navbar() {
   return (
@@ -9,9 +10,15 @@ function Navbar() {
 
         </div>
         <ul>
-            <li>
-                <a href=""></a>
-            </li>
+            {MenuItems.map((item, index)=>{
+                return (
+                    <li key={index}>
+                        <a className={item.cName} href={item.url}>
+                            {item.title}
+                        </a>
+                    </li>
+                )
+            })}
         </ul>
     </nav>
   );
