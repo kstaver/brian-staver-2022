@@ -1,22 +1,22 @@
 import './App.css';
 import React from 'react';
-import Home from './components/Home/Home';
-import About from './components/About/About';
+import Home from './components/Body/Home/Home';
+import About from './components/Body/About/About';
 import Contact from './components/Contact/Contact';
 import Endorsements from './components/Endorsements/Endorsements';
-import Petition from './components/Petition/Petition';
-import Platform from './components/Platform/Platform';
-import Volunteer from './components/Volunteer/Volunteer';
-import Events from './components/Events/Events';
+import Petition from './components/Body/Petition/Petition';
+import Platform from './components/Body/Platform/Platform';
+import Volunteer from './components/Body/Volunteer/Volunteer';
+import Events from './components/Body/Events/Events';
 import Donate from './components/Donate/Donate';
 import {Routes, Route} from 'react-router-dom';
-import NavBar from './components/NavBar/NavBar';
+import Navbar from './components/NavBar/Navbar';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
