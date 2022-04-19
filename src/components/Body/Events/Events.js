@@ -1,5 +1,5 @@
 import React from 'react';
-import EventsStyle from './Events.css';
+import './Events.css';
 
 function Events() {
   return (

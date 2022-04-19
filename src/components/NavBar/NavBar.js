@@ -5,9 +5,9 @@ import {MenuItems} from "./MenuItems";
 function Navbar() {
   return (
     <nav className='NavbarItems'>
-        <h1 className='navbar-logo'>Brian Staver</h1>
+        <h1 className='navbar-logo'>Brian Staver<i className='fab fa-react'></i></h1>
         <div className='menu-icon'>
-
+            <i class="fa-solid fa-square-list"></i>
         </div>
         <ul>
             {MenuItems.map((item, index)=>{

@@ -1,5 +1,5 @@
 import React from 'react';
-import EndorsementsStyle from './Endorsements.css';
+import './Endorsements.css';
 
 function Endorsements() {
   return (

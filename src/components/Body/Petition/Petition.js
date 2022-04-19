@@ -1,5 +1,5 @@
 import React from 'react';
-import PetitionStyle from './Petition.css';
+import './Petition.css';
 
 function Petition() {
   return (

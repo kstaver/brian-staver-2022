@@ -1,5 +1,5 @@
 import React from 'react';
-import PlatformStyle from './Platform.css';
+import './Platform.css';
 
 function Platform() {
   return (
